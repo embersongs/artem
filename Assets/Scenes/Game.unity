@@ -2019,8 +2019,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466304401}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 334.62845, y: 2.3300056, z: 289.44812}
+  m_LocalRotation: {x: 0.60991865, y: 0.067934126, z: 0.052523393, w: -0.7877979}
+  m_LocalPosition: {x: 210.4241, y: -29.69043, z: 203.10425}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3731,64 +3731,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 485988, guid: c7bc3a9d18ad39d43a6927004d0c24d8, type: 3}
   m_PrefabInstance: {fileID: 142073912}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &967978032
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 967978034}
-  - component: {fileID: 967978033}
-  m_Layer: 0
-  m_Name: Spawn
-  m_TagString: Untagged
-  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &967978033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 967978032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a62da6cbbf82b10479f61e05d32600e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 195347536875727637, guid: 18699dd3ddc9c9146a4b5104f37229c8, type: 3}
-  spawnMode: 1
-  spawnParent: {fileID: 967978034}
-  spawnAreaCenter: {x: 342.634, y: 40.1, z: 292.0589}
-  spawnAreaSize: {x: 10, y: 0, z: 10}
-  spawnOnSurface: 0
-  surfaceLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  spawnInterval: 1
-  maxObjects: 200
-  objectsPerWave: 25
-  waveInterval: 5
-  totalWaves: 5
---- !u!4 &967978034
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 967978032}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 342.634, y: 40.02, z: 292.05893}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &969621840 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 491618, guid: 13f6097cdfae79d44acca4175298212a, type: 3}
@@ -27189,4 +27131,3 @@ SceneRoots:
   - {fileID: 910051488}
   - {fileID: 289336290}
   - {fileID: 107974548}
-  - {fileID: 967978034}
